@@ -118,7 +118,6 @@ export default {
     },
     onOpenChange (openKeys) {
       const latestOpenKey = openKeys.find(key => this.openKeys.indexOf(key) === -1)
-
       if (!this.subMenuCollapsed) {
         this.openKeys = openKeys
         return

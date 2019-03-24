@@ -7,6 +7,7 @@ import 'ant-design-vue/dist/antd.css'
 import './permission'
 
 Vue.config.productionTip = true
+Vue.prototype.HOST = '/api'
 
 Vue.use(Antd)
 

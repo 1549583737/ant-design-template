@@ -7,12 +7,13 @@ import errorPage from '@/components/Exception/router'
 
 import dashboard from '@/view/Dashboard/router'
 import home from '@/view/Home/router'
+import tableList from '@/view/TableList/router'
 
 Vue.use(Router)
 Vue.use(Meta)
 
 const RoutesList = [
-  login, register, errorPage, dashboard, home
+  login, register, errorPage, dashboard, home, tableList
 ]
 
 const routes = RoutesList.map(item => {

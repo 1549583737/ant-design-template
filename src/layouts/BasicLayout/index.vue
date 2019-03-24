@@ -51,6 +51,7 @@ export default {
   top: 16px;
   right: -17px;
   bottom: 0;
+  background-color: #fff;
   overflow-x: hidden;
   overflow-y: scroll;
 }

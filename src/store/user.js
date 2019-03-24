@@ -30,6 +30,8 @@ export default {
   actions: {
     async login ({ commit, dispatch }, info) {
       const { key: token } = await api.user.login({ info: info })
+      // console.log({key: token});
+      
 
       setToken(token)
 
